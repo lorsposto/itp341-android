@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">A1 Lorraine Sposto</string>
+    <string name="text_question">What is your quest?</string>
+    <string name="text_button1">To find the holy grail!</string>
+    <string name="text_button2">To eat another sandwich!</string>
+    <string name="toast_button1">You found %1$d holy grails!</string>
+    <string name="toast_button2">You\'ve eaten %1$d sandwiches!</string>
+</resources>
