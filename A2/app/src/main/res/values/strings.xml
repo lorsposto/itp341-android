@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">My Favorite Foods</string>
+    <string name="image_japanese">http://tinyurl.com/hmsfeps</string>
+    <string name="image_spanish">http://tinyurl.com/zldjoly</string>
+    <string name="image_chinese">http://tinyurl.com/jk2nbes</string>
+    <string name="image_french">http://tinyurl.com/hsnlsww</string>
+    <string name="image_thai">http://tinyurl.com/zeuzqzp</string>
+    <string name="image_indian">http://tinyurl.com/zb3sy3l</string>
+    <string name="text_japanese">Japanese</string>
+    <string name="text_spanish">Spanish</string>
+    <string name="text_chinese">Chinese</string>
+    <string name="text_french">French</string>
+    <string name="text_thai">Thai</string>
+    <string name="text_indian">Indian</string>
+    <string name="toast_template">You like %1$s food %2$d times!</string>
 </resources>
