@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">A3</string>
+    <string name="gameTitle">DOGE CLICKER</string>
+    <string name="dogetitle">Doge:</string>
+    <string name="initialDogeValue">0</string>
+    <string name="textHuman">Humans:</string>
+    <string name="textFireHydrant">Fire Hydrants:</string>
+    <string name="textTreats">tr3@t$:</string>
+    <string name="textShoes">SHOES:</string>
+    <string name="buttonAddSymbol">+</string>
+    <string name="textCost">Buy for </string>
+    <string name="textToast">Your %1$d %2$s help find %3$s doges per press.</string>
+    <string name="buttonDetail">DETAILS</string>
+</resources>

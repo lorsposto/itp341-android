@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="itp341.a3.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gameTitle"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView6" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+    <!-- MOCHA -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/row_vertical_margin"
+        >
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageButtonMocha"
+            android:src="@drawable/mocha"
+            android:scaleType="centerCrop"
+            android:cropToPadding="false"
+            android:adjustViewBounds="false"
+            android:layout_gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/button_vertical_padding"
+            android:paddingBottom="@dimen/button_vertical_padding">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dogetitle"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView"
+                android:layout_marginEnd="@dimen/spacing"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/initialDogeValue"
+                android:id="@+id/textViewDogeCount"
+                android:layout_marginEnd="@dimen/spacing"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- HUMAN -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/row_vertical_margin"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textHuman"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView2"
+            android:gravity="bottom"
+            android:layout_marginEnd="@dimen/spacing"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/initialDogeValue"
+            android:id="@+id/textViewHumanCount"
+            android:layout_marginEnd="@dimen/spacing"
+            android:layout_weight="1"
+            />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonAddSymbol"
+            android:id="@+id/buttonBuyHuman"
+            android:paddingTop="@dimen/button_vertical_padding"
+            android:paddingBottom="@dimen/button_vertical_padding"
+            />
+    </LinearLayout>
+
+    <!-- TREAT -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/row_vertical_margin"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textTreats"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView3"
+            android:layout_marginEnd="@dimen/spacing"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/initialDogeValue"
+            android:id="@+id/textViewTreatsCount"
+            android:layout_marginEnd="@dimen/spacing"
+            android:layout_weight="1"
+            />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonAddSymbol"
+            android:id="@+id/buttonBuyTreat"
+            android:gravity="center"
+            android:paddingTop="@dimen/button_vertical_padding"
+            android:paddingBottom="@dimen/button_vertical_padding"/>
+    </LinearLayout>
+
+    <!-- SHOE -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/row_vertical_margin"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textShoes"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView4"
+            android:gravity="fill_vertical|top"
+            android:layout_marginEnd="@dimen/spacing"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/initialDogeValue"
+            android:id="@+id/textViewShoesCount"
+            android:layout_marginEnd="@dimen/spacing"
+            android:layout_weight="1"
+            />
+
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonAddSymbol"
+            android:id="@+id/buttonBuyShoe"
+            android:paddingTop="@dimen/button_vertical_padding"
+            android:paddingBottom="@dimen/button_vertical_padding"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/row_vertical_margin"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textFireHydrant"
+            android:id="@+id/textView5"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginEnd="@dimen/spacing"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/initialDogeValue"
+            android:id="@+id/textViewHydrantCount"
+            android:layout_marginEnd="@dimen/spacing"
+            android:layout_weight="1"
+            />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonAddSymbol"
+            android:id="@+id/buttonBuyHydrant"
+            android:paddingTop="@dimen/button_vertical_padding"
+            android:paddingBottom="@dimen/button_vertical_padding"
+            />
+    </LinearLayout>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonDetail"
+        android:text="@string/buttonDetail"
+        android:paddingTop="@dimen/button_vertical_padding"
+        android:paddingBottom="@dimen/button_vertical_padding"/>
+
+</LinearLayout>
