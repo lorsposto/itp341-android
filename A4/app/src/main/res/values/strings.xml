@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">A4</string>
+    <string name="billAmountText">Bill Amount</string>
+    <string name="percentText">Percent</string>
+    <string name="tipText">Tip</string>
+    <string name="totalText">Total</string>
+    <string name="splitBillText">Split Bill?</string>
+    <string name="perPersonText">Per Person</string>
+
+</resources>
