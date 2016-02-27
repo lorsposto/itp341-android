@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">A5</string>
+    <string name="billAmountText">Bill Amount</string>
+    <string name="percentText">Percent</string>
+    <string name="tipText">Tip</string>
+    <string name="totalText">Total</string>
+    <string name="splitBillText">Split Bill?</string>
+    <string name="perPersonText">Per Person</string>
+
+
+    <string name="text_centimeters">centimeters</string>
+    <string name="text_meters">meters</string>
+    <string name="text_feet">feet</string>
+    <string name="text_miles">miles</string>
+    <string name="text_kilometers">kilometers</string>
+    <string name="text_from">From:</string>
+    <string name="text_to">To:</string>
+    <string name="text_convert">CONVERT</string>
+    <string name="text_result">Result:</string>
+    <string name="button_tip">TIP CALC</string>
+    <string name="button_units">UNIT CONV</string>
+    <string name="button_money">MONEY EXCH</string>
+
+    <string name="usd">USD</string>
+    <string name="yuan">Yuan</string>
+    <string name="euro">Euro</string>
+
+</resources>
