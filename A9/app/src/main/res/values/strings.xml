@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">A9</string>
+    <string name="label_rankings">Rankings</string>
+    <string name="label_battle">Battle</string>
+    <string name="label_results">Results</string>
+    <string name="label_add_hero">ADD HERO</string>
+    <string name="label_fight">FIGHT</string>
+    <string name="label_hero_1">Hero #1</string>
+    <string name="label_hero_2">Hero #2</string>
+    <string name="label_hero_name">Hero Name</string>
+    <string name="label_power_1">Power #1</string>
+    <string name="label_power_2">Power #2</string>
+    <string name="label_save">SAVE</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="size_array">
+        <item>big</item>
+        <item>medium</item>
+        <item>small</item>
+    </string-array>
+
+    <integer-array name="answer_color">
+        <item>0</item>
+        <item>0</item>
+        <item>255</item>
+    </integer-array>
+
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">A6</string>
+    <string name="button_set_changes">Set Changes</string>
+    <string name="what_is_my_name">What is my name?</string>
+    <string name="size_label">Size:</string>
+    <string name="feeling_blue">I\'m feeling blue.</string>
+    <string name="want_to_be_big">I want to be big.</string>
+    <string name="call_me_al">You can call me \"Al\".</string>
+    <string name="room1">Room 1</string>
+    <string name="room2">Room 2</string>
+    <string name="room3">Room 3</string>
+    <string name="button_solve">Solve</string>
+    <string name="label_solve_the_puzzle">Solve the Puzzle</string>
+
+    <string name="answer_name">Al</string>
+    <string name="answer_size">big</string>
+
+    <string name="win_text">You WIN!</string>
+    <string name="lose_text">Try again.</string>
+</resources>
